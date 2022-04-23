@@ -1,5 +1,7 @@
 # Programming Series
 
+In continuation to our exploration, let's start with a very simple problem which could be solved by looking at it from a different perspective.
+
 ## Count Odd Numbers in an Interval Range
 
 Class: Programming Skills - LeetCode
