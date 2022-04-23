@@ -1,11 +1,8 @@
 # 1523. Count Odd Numbers in an Interval Range
 
 Class: Programming Skills - LeetCode
-Created: April 23, 2022 2:00 PM
 Link to Problem: https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
-Property: No
-Serial Number: Yes
-Type: Coding
+
 
 ## Problem Description
 
