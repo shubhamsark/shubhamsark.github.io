@@ -19,7 +19,7 @@ Link to Problem: https://leetcode.com/problems/count-odd-numbers-in-an-interval-
 
 ### Approach 1:
 
-The simple solution at comes to mind first would be to loop through from `low` to `high` and check which numbers yield a different result when divided by 2 → 
+The simple solution that comes to mind first would be to loop through from `low` to `high` and check which numbers yield a different result when divided by 2 → 
 
 - **Note:** If the modulo operator yields 1, in that case the number is odd and should be counted.
 
