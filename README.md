@@ -32,7 +32,7 @@ Too simple? Where’s the catch? Time Limit Exceeded (TLE) -
 
 Figure 2: Submission result of ‘Naive Code’
 
-Let’s see why this happened. This would take `O(n)` travelling from left to right and checking if each number is odd or not. So, if the input values from `low = 0` and `high = 100000000` or $10^9$. This would lead to looping through a very large set of input and the checker would give up.
+Let’s see why this happened. This would take `O(n)` travelling from left to right and checking if each number is odd or not. So, if the input values from `low = 0` and `high = 100000000` or `10^9`. This would lead to looping through a very large set of input and the checker would give up.
 
 What’s a better way to go about solving this problem? Let’s get outsmart the TLE!
 
@@ -50,19 +50,19 @@ Let’s concentrate on the fact that in a given range, there will be almost half
 
 What can we conclude from this?
 
-**From Scenario 1:** If the numbers are even then we can simply take the difference and divide it by 2 → $(high - low)/2$  to get the odd numbers count in between.
+**From Scenario 1:** If the numbers are even then we can simply take the difference and divide it by 2 → `(high - low)/2`  to get the odd numbers count in between.
 
-Extrapolating on the previously presented Scenario: `[2, 3, 4, 5, 6, 7, 8]` → $(8-2)/2 = 3$
+Extrapolating on the previously presented Scenario: `[2, 3, 4, 5, 6, 7, 8]` → `(8-2)/2 = 3`
 
-**From Scenario 2-4:** If any one of the numbers are odd, there will be 1 extra number always classified as odd. Hence, $(high-low)/2 + 1$. 
+**From Scenario 2-4:** If any one of the numbers are odd, there will be 1 extra number always classified as odd. Hence, `(high-low)/2 + 1`. 
 
 **Note:** treating the division to be of integer numbers yielding an integer as a result
 
-`[even, odd] → [2, 3, 4, 5, 6, 7]` → $(7-2)/2 + 1 = 3$
+`[even, odd] → [2, 3, 4, 5, 6, 7]` → `(7-2)/2 + 1 = 3`
 
-`[odd, even] → [1, 2, 3, 4, 5, 6]` → $(6-1)/2 + 1 = 3$
+`[odd, even] → [1, 2, 3, 4, 5, 6]` → `(6-1)/2 + 1 = 3`
 
-`[odd, odd] → [1, 2, 3, 4, 5]` → $(5-1)/2 + 1 = 3$
+`[odd, odd] → [1, 2, 3, 4, 5]` → `(5-1)/2 + 1 = 3`
 
 In this we did not have to loop around the numbers to find the result, just a basic subtraction, division and addition of the numbers already available to us would be enough to sail through. A simple realisation at times takes us places, eh? Let’s code it up!
 
