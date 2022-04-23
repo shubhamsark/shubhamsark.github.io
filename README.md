@@ -10,7 +10,7 @@ Link to Problem: https://leetcode.com/problems/count-odd-numbers-in-an-interval-
 > 
 - Problem Link: [https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
 
-![Capture.PNG](1523%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range%20776a4a3c706448aaacefa4462ebb3e3b/Capture.png)
+![Capture.PNG](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Untitled.png?raw=true)
 
 ## Solution Approaches
 
