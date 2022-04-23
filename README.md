@@ -1,3 +1,6 @@
+# Programming Series
+
+## 1523. Count Odd Numbers in an Interval Range
 
 Class: Programming Skills - LeetCode
 
