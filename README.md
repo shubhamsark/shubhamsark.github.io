@@ -10,7 +10,7 @@ Link to Problem: https://leetcode.com/problems/count-odd-numbers-in-an-interval-
 > 
 - Problem Link: [https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/)
 
-![Capture.PNG](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Untitled.png?raw=true)
+![Capture.PNG](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Capture.png?raw=true)
 
 ## Solution Approaches
 
@@ -22,13 +22,13 @@ The simple solution at comes to mind first would be to loop through from `low` t
 
 A simple code should be able to do this for us, eh?
 
-![Figure 1: Naive Code](1523%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range%20776a4a3c706448aaacefa4462ebb3e3b/Untitled.png)
+![Figure 1: Naive Code](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Untitled.png?raw=true)
 
 Figure 1: Naive Code
 
 Too simple? Where’s the catch? Time Limit Exceeded (TLE) -
 
-![Figure 2: Submission result of ‘Naive Code’](1523%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range%20776a4a3c706448aaacefa4462ebb3e3b/Untitled%201.png)
+![Figure 2: Submission result of ‘Naive Code’](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Untitled%201.png?raw=true)
 
 Figure 2: Submission result of ‘Naive Code’
 
@@ -66,10 +66,10 @@ Extrapolating on the previously presented Scenario: `[2, 3, 4, 5, 6, 7, 8]` → 
 
 In this we did not have to loop around the numbers to find the result, just a basic subtraction, division and addition of the numbers already available to us would be enough to sail through. A simple realisation at times takes us places, eh? Let’s code it up!
 
-![Figure 3: Optimized Code](1523%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range%20776a4a3c706448aaacefa4462ebb3e3b/Untitled%202.png)
+![Figure 3: Optimized Code](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Untitled%202.png?raw=true)
 
 Figure 3: Optimized Code
 
 Found it elegant yet? If no, 
 
-![Untitled](1523%20Count%20Odd%20Numbers%20in%20an%20Interval%20Range%20776a4a3c706448aaacefa4462ebb3e3b/Untitled%203.png)
+![Untitled](https://github.com/shubhamsark/shubhamsark.github.io/blob/main/Untitled%203.png?raw=true)
