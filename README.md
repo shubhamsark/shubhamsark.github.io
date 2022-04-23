@@ -4,9 +4,6 @@
 
 Class: Programming Skills - LeetCode
 
-Link to Problem: https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/
-
-
 ## Problem Description
 
 > Given two non-negative integers `low`and `high`. Return the *count of odd numbers between* `low` *and* `high` *(inclusive)*.
@@ -19,7 +16,7 @@ Link to Problem: https://leetcode.com/problems/count-odd-numbers-in-an-interval-
 
 ### Approach 1:
 
-The simple solution that comes to mind first would be to loop through from `low` to `high` and check which numbers yield a different result when divided by 2 → 
+The simple solution that comes to mind first would be to loop through from `low` to `high` and check which numbers yields 1 when divided by 2 → 
 
 - **Note:** If the modulo operator yields 1, in that case the number is odd and should be counted.
 
@@ -37,7 +34,7 @@ Figure 2: Submission result of ‘Naive Code’
 
 Let’s see why this happened. This would take `O(n)` travelling from left to right and checking if each number is odd or not. So, if the input values from `low = 0` and `high = 100000000` or `10^9`. This would lead to looping through a very large set of input and the checker would give up.
 
-What’s a better way to go about solving this problem? Let’s get outsmart the TLE!
+What’s a better way to go about solving this problem? Let’s go outsmart the TLE!
 
 ### Approach 2:
 
